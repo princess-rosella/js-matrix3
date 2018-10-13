@@ -1,0 +1,25 @@
+{
+  "name": "spu-matrix3",
+  "version": "0.0.1",
+  "description": "JavaScript Matrix3x3 (aka Affine Transform)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p lib.tsconfig.json",
+    "test": "tsc -p tests.tsconfig.json && node tests.out/tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princess-rosella/spu-matrix3.git"
+  },
+  "keywords": [
+    "matrix3",
+    "affinetransform"
+  ],
+  "author": "Princess Rosella <princess.rosella.of.daventry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princess-rosella/spu-matrix3/issues"
+  },
+  "homepage": "https://github.com/princess-rosella/spu-matrix3#readme"
+}
